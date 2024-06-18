@@ -4,12 +4,7 @@ body {
 
 .navigation {
     display: flex;
-    background-color: #1F2937;
-    padding: 30px;
-}
-
-.header {
-    display: flex;
+    justify-content: space-between;
     background-color: #1F2937;
     padding: 30px;
 }
@@ -23,6 +18,23 @@ a:link, a:visited {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7Eb
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
 }
 
 .body {
@@ -41,6 +53,7 @@ a:link, a:visited {
 
 .card-tiles {
     display: flex;
+    gap: 30px;
 }
 
 .card {
@@ -48,6 +61,7 @@ a:link, a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 142px;
 }
 
 .card-box {
@@ -56,8 +70,8 @@ a:link, a:visited {
     border-style: solid;
     border-radius: 10px;
     border-color: #3882F6;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;

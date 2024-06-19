@@ -17,13 +17,14 @@ body {
 a:link, a:visited {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7Eb
+    color: #E5E7EB;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
     padding: 30px;
+    justify-content: center;
 }
 
 .header-left {
@@ -34,7 +35,32 @@ a:link, a:visited {
 .main-heading {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8
+    color: #F9FAF8;
+}
+
+.main-subheading {
+    color: #E5E7EB;
+}
+
+.header button {
+    display: flex;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.header-img {
+    display: flex;
+    background-color: #6d747d;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
 }
 
 .body {
@@ -95,9 +121,16 @@ a:link, a:visited {
     font-weight: lighter;
 }
 
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 .action-call {
     display: flex;
     background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .action-left {
@@ -105,9 +138,25 @@ a:link, a:visited {
     flex-direction: column;
 }
 
-.author {
+.action-header {
+    color: #F9FAF8;
     font-weight: bold;
-    align-self: flex-end;
+}
+
+.action-body {
+    color: #E5E7EB;
+}
+
+button.action {
+    display: flex;
+    align-self: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: solid 2px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .footer {
